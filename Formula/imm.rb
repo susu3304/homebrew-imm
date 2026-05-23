@@ -7,10 +7,10 @@ class Imm < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/susu3304/imm-installers/releases/download/imm-v0.1.0-git13-95018fc9d4df/imm-macos-arm64.tar.gz"
-      sha256 "6075af8544d3edacae97c938b7b55b60543d9ac065b66f4866596789b21885b9"
+      sha256 "faa04653f07e12b7aa78c3a2f88eb7278af85e032457ed31fe10459553002799"
     else
       url "https://github.com/susu3304/imm-installers/releases/download/imm-v0.1.0-git13-95018fc9d4df/imm-macos-x64.tar.gz"
-      sha256 "3364327bd9286145d579597958cb008bf40bed4814c0f9296e1e7f06f6b85074"
+      sha256 "59dcd43e06f56219e5bd303c275b7053632acdc67edf15b39d3a60aaf9e79ff9"
     end
   end
 
